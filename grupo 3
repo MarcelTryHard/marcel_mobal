@@ -1,0 +1,28 @@
+atividade 10
+
+alert (" sistema para distinguir vogal de consoante")
+
+
+
+let letra = prompt("Insira uma letra")
+
+let vogais = ["a", "e", "i", "o", "u"]
+
+if (vogais.indexOf(letra.toLowerCase()) !== -1) {
+  alert("Vogal")
+} else {
+  alert("Consoante")
+}
+
+
+atividade 18
+
+let input = prompt("Digite um número:");
+
+let numero = parseFloat(input); // Converte o valor do prompt para número (float ou inteiro)
+
+if (Number.isInteger(numero)) {
+    alert("O número é inteiro.");
+} else {
+    alert("O número é real (decimal).");
+}
